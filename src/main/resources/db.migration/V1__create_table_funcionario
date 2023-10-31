@@ -1,0 +1,6 @@
+CREATE TABLE 'funcionario' (
+    'id' bigint NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    'nome' varchar(255) NOT NULL,
+    'cargo' varchar(255) NOT NULL,
+    'status' varchar(255) NOT NULL
+)
